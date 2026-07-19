@@ -1,0 +1,140 @@
+﻿📄 تقرير بناء مشروع الياسين ERP
+التاريخ: 06/06/2026 02:56:02
+----------------------------------------
+Doctor summary (to see all details, run flutter doctor -v):
+[ظêأ] Flutter (Channel stable, 3.44.1, on Microsoft Windows [Version 10.0.19045.6456], locale ar-YE)
+[ظêأ] Windows Version (?? 10 Pro 64-bit, 22H2, 2009)
+[ظêأ] Android toolchain - develop for Android devices (Android SDK version 30.0.3)
+[ظêأ] Chrome - develop for the web
+[X] Visual Studio - develop Windows apps
+    X Visual Studio not installed; this is necessary to develop Windows apps.
+      Download at https://visualstudio.microsoft.com/downloads/.
+      Please install the "Desktop development with C++" workload, including all of its default components
+[ظêأ] Connected device (3 available)
+[ظêأ] Network resources
+
+! Doctor found issues in 1 category.
+✅ تم تحديث Flutter SDK
+Flutter is already up to date on channel stable
+Flutter 3.44.1 ظت channel stable ظت https://github.com/flutter/flutter.git
+Framework ظت revision 924134a44c (7 days ago) ظت 2026-05-29 12:13:22 -0400
+Engine ظت hash 39b1f7043775b9578bbb26a1676e79c4e31c8b5e (revision c416acfeb8) (9 days ago) ظت 2026-05-27 20:19:31.000Z
+Tools ظت Dart 3.12.1 ظت DevTools 2.57.0
+Deleting build...                                                   10ms
+Deleting .dart_tool...                                              10ms
+Deleting ephemeral...                                               65ms
+Deleting .flutter-plugins-dependencies...                            0ms
+✅ تم تنظيف المشروع
+Resolving dependencies...
+Downloading packages...
+  _fe_analyzer_shared 99.0.0 (101.0.0 available)
+  analyzer 12.1.0 (13.1.0 available)
+  flutter_secure_storage_darwin 0.3.2 (0.4.0 available)
+  latlong2 0.9.1 (0.10.1 available)
+  matcher 0.12.19 (0.12.20 available)
+  meta 1.18.0 (1.18.3 available)
+  test 1.31.0 (1.31.1 available)
+  test_api 0.7.11 (0.7.12 available)
+  test_core 0.6.17 (0.6.18 available)
+  vector_math 2.2.0 (2.4.0 available)
+Got dependencies!
+10 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+Resolving dependencies...
+Downloading packages...
+  _fe_analyzer_shared 99.0.0 (101.0.0 available)
+  analyzer 12.1.0 (13.1.0 available)
+  flutter_secure_storage_darwin 0.3.2 (0.4.0 available)
+  latlong2 0.9.1 (0.10.1 available)
+  matcher 0.12.19 (0.12.20 available)
+  meta 1.18.0 (1.18.3 available)
+  test 1.31.0 (1.31.1 available)
+  test_api 0.7.11 (0.7.12 available)
+  test_core 0.6.17 (0.6.18 available)
+  vector_math 2.2.0 (2.4.0 available)
+No dependencies changed.
+10 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+✅ تم تحديث الحزم القديمة
+Analyzing alasim_management...                                  
+
+  error - The function 'StateProvider' isn't defined. Try importing the library that defines 'StateProvider', correcting the name to the name of an existing function, or defining a function named 'StateProvider' - lib\features\chat\application\providers\chat_provider.dart:17:30 - undefined_function
+  error - The function 'StateNotifierProvider' isn't defined. Try importing the library that defines 'StateNotifierProvider', correcting the name to the name of an existing function, or defining a function named 'StateNotifierProvider' - lib\modules\audit_trail\application\providers\audit_controller.dart:10:5 - undefined_function
+  error - Classes can only extend other classes. Try specifying a different superclass, or removing the extends clause - lib\modules\audit_trail\application\providers\audit_controller.dart:14:31 - extends_non_class
+  error - Too many positional arguments: 0 expected, but 1 found. Try removing the extra arguments - lib\modules\audit_trail\application\providers\audit_controller.dart:18:37 - extra_positional_arguments
+  error - Undefined name 'state'. Try correcting the name to one that is defined, or defining the name - lib\modules\audit_trail\application\providers\audit_controller.dart:24:5 - undefined_identifier
+  error - Undefined name 'state'. Try correcting the name to one that is defined, or defining the name - lib\modules\audit_trail\application\providers\audit_controller.dart:47:5 - undefined_identifier
+  error - Classes can only extend other classes. Try specifying a different superclass, or removing the extends clause - lib\modules\auth\application\providers\auth_controller.dart:10:30 - extends_non_class
+  error - Too many positional arguments: 0 expected, but 1 found. Try removing the extra arguments - lib\modules\auth\application\providers\auth_controller.dart:11:28 - extra_positional_arguments
+  error - Undefined name 'state'. Try correcting the name to one that is defined, or defining the name - lib\modules\auth\application\providers\auth_controller.dart:14:5 - undefined_identifier
+  error - Undefined name 'state'. Try correcting the name to one that is defined, or defining the name - lib\modules\auth\application\providers\auth_controller.dart:19:7 - undefined_identifier
+  error - Undefined name 'state'. Try correcting the name to one that is defined, or defining the name - lib\modules\auth\application\providers\auth_controller.dart:23:5 - undefined_identifier
+  error - The function 'StateNotifierProvider' isn't defined. Try importing the library that defines 'StateNotifierProvider', correcting the name to the name of an existing function, or defining a function named 'StateNotifierProvider' - lib\modules\auth\application\providers\auth_controller.dart:32:32 - undefined_function
+  error - The function 'StateNotifierProvider' isn't defined. Try importing the library that defines 'StateNotifierProvider', correcting the name to the name of an existing function, or defining a function named 'StateNotifierProvider' - lib\modules\notifications\application\providers\notifications_controller.dart:11:5 - undefined_function
+  error - Classes can only extend other classes. Try specifying a different superclass, or removing the extends clause - lib\modules\notifications\application\providers\notifications_controller.dart:22:39 - extends_non_class
+  error - Too many positional arguments: 0 expected, but 1 found. Try removing the extra arguments - lib\modules\notifications\application\providers\notifications_controller.dart:26:45 - extra_positional_arguments
+  error - Undefined name 'state'. Try correcting the name to one that is defined, or defining the name - lib\modules\notifications\application\providers\notifications_controller.dart:37:5 - undefined_identifier
+  error - Undefined name 'state'. Try correcting the name to one that is defined, or defining the name - lib\modules\notifications\application\providers\notifications_controller.dart:60:26 - undefined_identifier
+  error - Undefined name 'state'. Try correcting the name to one that is defined, or defining the name - lib\modules\notifications\application\providers\notifications_controller.dart:69:32 - undefined_identifier
+  error - The function 'StateNotifierProvider' isn't defined. Try importing the library that defines 'StateNotifierProvider', correcting the name to the name of an existing function, or defining a function named 'StateNotifierProvider' - lib\modules\sync_engine\application\providers\sync_engine_controller.dart:11:5 - undefined_function
+  error - Classes can only extend other classes. Try specifying a different superclass, or removing the extends clause - lib\modules\sync_engine\application\providers\sync_engine_controller.dart:15:36 - extends_non_class
+  error - Too many positional arguments: 0 expected, but 1 found. Try removing the extra arguments - lib\modules\sync_engine\application\providers\sync_engine_controller.dart:19:42 - extra_positional_arguments
+  error - Undefined name 'state'. Try correcting the name to one that is defined, or defining the name - lib\modules\sync_engine\application\providers\sync_engine_controller.dart:28:5 - undefined_identifier
+  error - Undefined name 'state'. Try correcting the name to one that is defined, or defining the name - lib\modules\sync_engine\application\providers\sync_engine_controller.dart:49:18 - undefined_identifier
+  error - Undefined name 'state'. Try correcting the name to one that is defined, or defining the name - lib\modules\sync_engine\application\providers\sync_engine_controller.dart:58:24 - undefined_identifier
+  error - The function 'StateNotifierProvider' isn't defined. Try importing the library that defines 'StateNotifierProvider', correcting the name to the name of an existing function, or defining a function named 'StateNotifierProvider' - lib\modules\users\application\providers\users_controller.dart:15:5 - undefined_function
+  error - The function 'StateNotifierProvider' isn't defined. Try importing the library that defines 'StateNotifierProvider', correcting the name to the name of an existing function, or defining a function named 'StateNotifierProvider' - lib\modules\users\application\providers\users_controller.dart:20:5 - undefined_function
+  error - Classes can only extend other classes. Try specifying a different superclass, or removing the extends clause - lib\modules\users\application\providers\users_controller.dart:77:31 - extends_non_class
+  error - Too many positional arguments: 0 expected, but 1 found. Try removing the extra arguments - lib\modules\users\application\providers\users_controller.dart:81:37 - extra_positional_arguments
+  error - Undefined name 'state'. Try correcting the name to one that is defined, or defining the name - lib\modules\users\application\providers\users_controller.dart:84:5 - undefined_identifier
+  error - Undefined name 'state'. Try correcting the name to one that is defined, or defining the name - lib\modules\users\application\providers\users_controller.dart:84:13 - undefined_identifier
+  error - Undefined name 'state'. Try correcting the name to one that is defined, or defining the name - lib\modules\users\application\providers\users_controller.dart:88:5 - undefined_identifier
+  error - Undefined name 'state'. Try correcting the name to one that is defined, or defining the name - lib\modules\users\application\providers\users_controller.dart:88:13 - undefined_identifier
+  error - Undefined name 'state'. Try correcting the name to one that is defined, or defining the name - lib\modules\users\application\providers\users_controller.dart:98:20 - undefined_identifier
+  error - Undefined name 'state'. Try correcting the name to one that is defined, or defining the name - lib\modules\users\application\providers\users_controller.dart:100:7 - undefined_identifier
+  error - Undefined name 'state'. Try correcting the name to one that is defined, or defining the name - lib\modules\users\application\providers\users_controller.dart:100:15 - undefined_identifier
+  error - Undefined name 'state'. Try correcting the name to one that is defined, or defining the name - lib\modules\users\application\providers\users_controller.dart:127:18 - undefined_identifier
+  error - Undefined name 'state'. Try correcting the name to one that is defined, or defining the name - lib\modules\users\application\providers\users_controller.dart:144:18 - undefined_identifier
+  error - Classes can only extend other classes. Try specifying a different superclass, or removing the extends clause - lib\modules\users\application\providers\users_controller.dart:182:30 - extends_non_class
+  error - Too many positional arguments: 0 expected, but 1 found. Try removing the extra arguments - lib\modules\users\application\providers\users_controller.dart:185:36 - extra_positional_arguments
+  error - Undefined name 'state'. Try correcting the name to one that is defined, or defining the name - lib\modules\users\application\providers\users_controller.dart:188:5 - undefined_identifier
+  error - Undefined name 'state'. Try correcting the name to one that is defined, or defining the name - lib\modules\users\application\providers\users_controller.dart:188:13 - undefined_identifier
+  error - Undefined name 'state'. Try correcting the name to one that is defined, or defining the name - lib\modules\users\application\providers\users_controller.dart:192:7 - undefined_identifier
+  error - Undefined name 'state'. Try correcting the name to one that is defined, or defining the name - lib\modules\users\application\providers\users_controller.dart:192:15 - undefined_identifier
+  error - Undefined name 'state'. Try correcting the name to one that is defined, or defining the name - lib\modules\users\application\providers\users_controller.dart:197:5 - undefined_identifier
+  error - Undefined name 'state'. Try correcting the name to one that is defined, or defining the name - lib\modules\users\application\providers\users_controller.dart:197:13 - undefined_identifier
+  error - Undefined name 'state'. Try correcting the name to one that is defined, or defining the name - lib\modules\users\application\providers\users_controller.dart:201:5 - undefined_identifier
+  error - Undefined name 'state'. Try correcting the name to one that is defined, or defining the name - lib\modules\users\application\providers\users_controller.dart:201:13 - undefined_identifier
+  error - Undefined name 'state'. Try correcting the name to one that is defined, or defining the name - lib\modules\users\application\providers\users_controller.dart:211:7 - undefined_identifier
+  error - Undefined name 'state'. Try correcting the name to one that is defined, or defining the name - lib\modules\users\application\providers\users_controller.dart:211:15 - undefined_identifier
+  error - Undefined name 'state'. Try correcting the name to one that is defined, or defining the name - lib\modules\users\application\providers\users_controller.dart:224:5 - undefined_identifier
+  error - Undefined name 'state'. Try correcting the name to one that is defined, or defining the name - lib\modules\users\application\providers\users_controller.dart:224:13 - undefined_identifier
+  error - Undefined name 'state'. Try correcting the name to one that is defined, or defining the name - lib\modules\users\application\providers\users_controller.dart:234:19 - undefined_identifier
+  error - Undefined name 'state'. Try correcting the name to one that is defined, or defining the name - lib\modules\users\application\providers\users_controller.dart:236:5 - undefined_identifier
+  error - Undefined name 'state'. Try correcting the name to one that is defined, or defining the name - lib\modules\users\application\providers\users_controller.dart:236:13 - undefined_identifier
+
+✅ تم تحليل الكود وإصلاح الدوال القديمة (مثل withOpacity)
+Running Gradle task 'assembleRelease'...                        
+Running Gradle task 'assembleRelease'...                           14.4s
+
+ظ¤îظ¤ Flutter Fix ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤
+ظ¤é     [!] This is likely due to a malformed download of the NDK.              ظ¤é
+ظ¤é     This can be fixed by deleting the local NDK copy at:                    ظ¤é
+ظ¤é     C:\Users\elias\AppData\Local\Android\Sdk\ndk\28.2.13676358              ظ¤é
+ظ¤é     and allowing the Android Gradle Plugin to automatically re-download it. ظ¤é
+ظ¤é                                                                             ظ¤é
+ظ¤¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ء
+Running Gradle task 'bundleRelease'...                          
+Running Gradle task 'bundleRelease'...                              4.6s
+
+ظ¤îظ¤ Flutter Fix ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤
+ظ¤é     [!] This is likely due to a malformed download of the NDK.              ظ¤é
+ظ¤é     This can be fixed by deleting the local NDK copy at:                    ظ¤é
+ظ¤é     C:\Users\elias\AppData\Local\Android\Sdk\ndk\28.2.13676358              ظ¤é
+ظ¤é     and allowing the Android Gradle Plugin to automatically re-download it. ظ¤é
+ظ¤é                                                                             ظ¤é
+ظ¤¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ظ¤ء
+✅ تم بناء APK + AAB بنجاح
+✅ تم تثبيت التطبيق على الهاتف (إذا كان متصل)
+----------------------------------------
+🎉 العملية اكتملت بنجاح راجع هذا التقرير لمعرفة التفاصيل.
