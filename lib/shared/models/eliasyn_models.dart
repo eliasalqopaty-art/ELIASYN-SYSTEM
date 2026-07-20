@@ -1,5 +1,5 @@
-class AlasimUserModel {
-  const AlasimUserModel(
+class eliasynUserModel {
+  const eliasynUserModel(
       {required this.id, required this.name, required this.role});
 
   final String id;
@@ -7,15 +7,15 @@ class AlasimUserModel {
   final String role;
 }
 
-class AlasimCompanyModel {
-  const AlasimCompanyModel({required this.id, required this.name});
+class eliasynCompanyModel {
+  const eliasynCompanyModel({required this.id, required this.name});
 
   final String id;
   final String name;
 }
 
-class AlasimWarehouseModel {
-  const AlasimWarehouseModel(
+class eliasynWarehouseModel {
+  const eliasynWarehouseModel(
       {required this.id, required this.name, required this.capacity});
 
   final String id;
@@ -23,8 +23,8 @@ class AlasimWarehouseModel {
   final int capacity;
 }
 
-class AlasimMedicineModel {
-  const AlasimMedicineModel(
+class eliasynMedicineModel {
+  const eliasynMedicineModel(
       {required this.id, required this.name, required this.stock});
 
   final String id;
